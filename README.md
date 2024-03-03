@@ -1,12 +1,12 @@
 # 🌟 Welcome to the Amazing Rain Predictor App! 🌧️
 
-## 📖 About
-
-The Rain Predictor App is an extraordinary tool that harnesses the power of cutting-edge machine learning algorithms to predict rain occurrences with remarkable accuracy. Developed by a team of passionate data scientists and weather enthusiasts, this app combines state-of-the-art technology with the latest weather data to provide you with real-time rain forecasts.
-
 <p align=center>
 <img src="./assets/cloud-sun-img.png" alt="Rain Predictor Logo" style="width: 400px;"/>
 </p>
+
+## 📖 About
+
+The Rain Predictor App is an extraordinary tool that harnesses the power of cutting-edge machine learning algorithms to predict rain occurrences with remarkable accuracy. Developed by a team of passionate data scientists and weather enthusiasts, this app combines state-of-the-art technology with the latest weather data to provide you with real-time rain forecasts.
 
 ### 📁 Repository Structure
 
