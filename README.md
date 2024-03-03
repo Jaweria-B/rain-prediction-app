@@ -80,14 +80,6 @@ The Rain Predictor App utilizes a comprehensive dataset containing historical we
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit pull requests to help improve the Rain Predictor App.
 
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-For any inquiries or feedback, please contact us at [info@rainpredictor.com](mailto:info@rainpredictor.com).
-
 ---
 
 🌦️ **Predict Rain, Stay Dry, and Enjoy the Weather!** 🌈
