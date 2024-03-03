@@ -13,7 +13,8 @@ model = load_model('rain_model.keras')
 st.write("""
 # Rain Prediction App
 
-This app predicts whether it will rain tomorrow based on various weather parameters.
+This app predicts whether it will rain tomorrow based on various weather parameters. \n
+🌦️ **Predict Rain, Stay Dry, and Enjoy the Weather!** 🌈
 """)
 
 st.write('---')

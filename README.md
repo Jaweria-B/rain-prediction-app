@@ -1,10 +1,12 @@
 # 🌟 Welcome to the Amazing Rain Predictor App! 🌧️
 
-![Rain Predictor Logo](https://example.com/rain_predictor_logo.png)
-
 ## 📖 About
 
 The Rain Predictor App is an extraordinary tool that harnesses the power of cutting-edge machine learning algorithms to predict rain occurrences with remarkable accuracy. Developed by a team of passionate data scientists and weather enthusiasts, this app combines state-of-the-art technology with the latest weather data to provide you with real-time rain forecasts.
+
+<p align=center>
+<img src="./assets/cloud-sun-img.png" alt="Rain Predictor Logo" style="width: 400px;"/>
+</p>
 
 ### 📁 Repository Structure
 
@@ -33,7 +35,7 @@ The Rain Predictor App is an extraordinary tool that harnesses the power of cutt
 
 2. Navigate to the project directory:
    ```bash
-   cd rain-predictor
+   cd rain-prediction-app
    ```
 
 3. Install the required dependencies:
@@ -45,6 +47,11 @@ The Rain Predictor App is an extraordinary tool that harnesses the power of cutt
    ```bash
    streamlit run app.py
    ```
+
+## Live Demo 🚀
+
+Check out the live demo [here](https://rain-prediction-jb.streamlit.app/) and experience the magic ✨ of predicting rain with our awesome app! 🌧️🔮
+
 
 ## 🚀 Getting Started
 
