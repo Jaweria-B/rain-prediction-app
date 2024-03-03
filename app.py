@@ -4,7 +4,7 @@ import pandas as pd
 from keras.models import load_model
 
 # Load the trained model from the file
-model = load_model('rain_model.keras')
+model = load_model('rain_model.h5')
 
 
 # Add additional information about the dataset
