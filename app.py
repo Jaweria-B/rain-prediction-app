@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-from tensorflow import keras
 from keras.models import load_model
 
 # Load the trained model from the file
@@ -93,7 +92,8 @@ def user_input_features():
 # Modify 'data' as per your actual DataFrame
 # Get user input features
 df = user_input_features()
-print(df.dtypes)
+# print(df.dtypes)
+
 # Main Panel
 
 # Print specified input parameters
