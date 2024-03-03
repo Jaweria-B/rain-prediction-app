@@ -10,7 +10,7 @@ model = load_model('rain_model.keras')
 
 # Add additional information about the dataset
 st.write("""
-# Rain Prediction App
+# Rain Prediction App ☔️
 
 This app predicts whether it will rain tomorrow based on various weather parameters. \n
 🌦️ **Predict Rain, Stay Dry, and Enjoy the Weather!** 🌈
@@ -121,6 +121,9 @@ st.markdown(f"""
 
 st.divider()
 
+# Display the picture
+st.image('./assets/clouds-sun-laughing.png', caption='Epic Battle: Sun vs. Clouds', use_column_width=True)
+
 # Model Evaluation
 st.write("## Model Evaluation")
 st.write("The model was trained using deep learning techniques and evaluated using various performance metrics such as accuracy, precision, recall, and F1-score. Key points regarding model evaluation include:")
@@ -150,6 +153,7 @@ This Rain Prediction App serves as a powerful tool for weather forecasting based
 
 st.write(
 """
+---
 Made By **_Jaweria Batool_**
 """
 )
