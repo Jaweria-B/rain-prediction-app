@@ -88,8 +88,6 @@ def user_input_features():
 
     return pd.DataFrame(data, index=[0])
 
-# Assuming 'data' is the DataFrame containing your rain predictor data
-# Modify 'data' as per your actual DataFrame
 # Get user input features
 df = user_input_features()
 # print(df.dtypes)
@@ -124,32 +122,57 @@ st.divider()
 # Display the picture
 st.image('./assets/clouds-sun-laughing.png', caption='Epic Battle: Sun vs. Clouds', use_column_width=True)
 
-# Model Evaluation
-st.write("## Model Evaluation")
-st.write("The model was trained using deep learning techniques and evaluated using various performance metrics such as accuracy, precision, recall, and F1-score. Key points regarding model evaluation include:")
+# Model Evaluation Section
+st.write("# Model Evaluation")
+st.write("The model underwent rigorous training using cutting-edge deep learning techniques and underwent comprehensive evaluation using a suite of performance metrics including accuracy, precision, recall, and F1-score.")
 
-st.write("- Utilization of deep learning techniques for training and evaluation.")
-st.write("- Evaluation metrics include accuracy, precision, recall, and F1-score.")
-st.write("- Extensive preprocessing steps were conducted on the dataset before training, including:")
-st.write("  - Handling missing values.")
-st.write("  - Encoding categorical variables.")
-st.write("  - Scaling numerical features.")
-st.write("- Hyperparameter tuning and cross-validation techniques were employed to optimize model performance.")
-st.write("- The final trained model demonstrates robust performance on unseen data and exhibits high accuracy in predicting rain occurrences.")
+# Utilization of Deep Learning Techniques
+st.write("### Utilization of Deep Learning Techniques")
+st.write("The model leveraged state-of-the-art deep learning methodologies for both training and evaluation phases, ensuring it could capture intricate patterns within the data effectively.")
+
+# Evaluation Metrics
+st.write("### Evaluation Metrics")
+st.write("Performance metrics such as accuracy, precision, recall, and F1-score were meticulously calculated to assess the model's predictive capabilities comprehensively.")
+
+# Preprocessing Steps
+st.write("### Preprocessing Steps")
+st.write("The dataset underwent extensive preprocessing steps to ensure data quality and enhance model performance, including handling missing values, encoding categorical variables, and scaling numerical features.")
+
+# Hyperparameter Tuning and Cross-Validation
+st.write("### Hyperparameter Tuning and Cross-Validation")
+st.write("Hyperparameters were fine-tuned iteratively, and cross-validation techniques were employed to optimize the model's performance.")
+
+# Robust Performance
+st.write("### Robust Performance")
+st.write("The final trained model exhibited robust performance on unseen data, demonstrating high accuracy in predicting rain occurrences with confidence.")
+
+# Understanding Input Features Section
+st.write("# Understanding Input Features")
+st.write("Here's a breakdown of some key features and their transformations:")
+
+# Temporal Features
+st.write("### Temporal Features")
+st.write("Year, month, and day features were transformed into cyclic representations using sine and cosine transformations, allowing the model to capture seasonal and periodic patterns more effectively.")
+
+# Location
+st.write("### Location")
+st.write("Geographic location plays a crucial role in weather patterns. By including location data, the model can adapt its predictions based on regional climate variations, enhancing its accuracy and relevance.")
+
+# Weather Parameters
+st.write("### Weather Parameters")
+st.write("Weather parameters such as temperature, rainfall, humidity, etc., underwent extensive preprocessing techniques to ensure consistency and reliability.")
+
+# RainToday
+st.write("### RainToday")
+st.write("This binary feature indicates whether it rained on the current day, enabling the model to learn from past weather occurrences and adjust its predictions accordingly.")
+
+# Wind Directions and Speeds
+st.write("### Wind Directions and Speeds")
+st.write("Wind direction and speed data provide valuable insights into airflow patterns, enhancing the model's predictive capabilities for various weather conditions.")
 
 # Conclusion
-st.write("""
-## Conclusion
-
-This Rain Prediction App serves as a powerful tool for weather forecasting based on historical data. Key points about the conclusion include:
-
-- Each feature in the dataset underwent meticulous modification during preprocessing, ensuring that the model captures the most relevant information for prediction.
-- The application showcases the efficacy of deep learning in analyzing complex patterns within weather data and making accurate predictions about future rain occurrences.
-- Moving forward, potential enhancements could include:
-  - Integrating real-time weather data streams for dynamic updates.
-  - Enhancing the user interface to provide more interactive visualizations and insights.
-""")
-
+st.write("# Conclusion")
+st.write("The Rain Prediction App combines deep learning techniques with meticulous preprocessing to deliver accurate weather forecasts. Further enhancements aim to improve predictive capabilities and user experience, empowering individuals and communities to make informed decisions in changing weather conditions.")
 
 st.write(
 """
